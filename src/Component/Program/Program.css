@@ -1,0 +1,25 @@
+.program{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(234, 236, 237);
+    
+}
+.program-topic{
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+.program-topic img{
+    height: 120px;
+    width: 120px;
+    padding-left:45px;
+    /* border: 2px red solid; */
+}
+.line{
+    height: 2px;
+    width: 85%;
+    border: 1px rgb(90, 88, 88) solid;
+    background-color: rgb(90, 88, 88);
+    margin-top: 12px;
+    margin-left: 60px;
+}

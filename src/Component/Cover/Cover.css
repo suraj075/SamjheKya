@@ -1,0 +1,40 @@
+.cover-box{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(234, 236, 237);
+    font-family:'Times New Roman', Times, serif;
+}
+.right-side img{
+    margin-left: 850px;
+
+}
+.line1,.line2,.line3{
+    padding-left: 110px;
+    width: 700px;
+}
+.line1{
+    padding-top: 90px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.line2{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(36, 168, 239);
+}
+.line3{
+    font-size: 45px;
+    font-weight: 40;
+}
+.content{
+    padding-top: 50px;
+    padding-left: 110px;
+    font-size: 22px;
+    font-style: italic;
+    width: 700px;
+}
+.right-side img{
+    height: 500px;
+    width: 500px;
+    margin-top: -700px;
+}

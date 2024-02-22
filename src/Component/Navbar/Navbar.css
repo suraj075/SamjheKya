@@ -1,0 +1,79 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    padding:15px;
+    box-shadow: 0 1px 8px -2px rgb(159, 157, 157);
+    border-radius: 8px;
+    height: 48px;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.nav-logo img{
+    height: 120px;
+    width: 120px;
+    margin-left: 15px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color:black;
+    font-size: 23px;
+}
+.nav-menu{
+    cursor: pointer;
+}
+.login button{
+    height: 45px;
+    width: 105px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(147, 196, 244);
+    transition: 1s;
+}
+.login button:hover{
+    background: rgb(55, 157, 241);
+    box-shadow: 0 5px 8px -0.5px rgb(87, 85, 85);
+    border-radius: 30px;
+    color: white;
+    
+}
+.login span{
+    font-size: 20px;
+    font-weight: 600px;
+}
+.nav-menu li{
+    font-weight: 500;
+}
+
+
+.nav-menu li {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #08b9f4; /* the color */
+    
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .nav-menu li:hover {
+    --_p: 100%;
+    --_s: .3s;
+  }
+
+
+  
+
+
+
+
